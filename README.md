@@ -12,7 +12,6 @@ This script contains necessary functions as well as examples to be able to commu
 - [Compilation and execution](#compilation-and-execution)
 - [Node server links](#node-server-links)
 - [Files and directories](#files-and-directories)
-- [Gitpod](#gitpod)
 
 ## Instalation
 
@@ -91,13 +90,3 @@ You can use this example links to check the functionality of the server.
 - **consts.ts file:** In this file you will find all the constants that you can use in the script, you can change it to set your contract data.
 - **utils.ts file:** In this file you will find some helper functions that will help you to handle some common aspects, like create a new GearAPi instance, Sails instance, etc.
 - **index.ts file:** Here you will find the main functions that will execute the script to send al the messages and queries to the contract.
-
-## Gitpod
-
-You can try the node server on gitpod!, the steps are the same, you can install the project dependencies (gitpod does this for you), compile the node server (`yarn tsc`) and run it (`yarn start`)!
-
-<p align="center">
-  <a href="https://gitpod.io/#https://github.com/Vara-Lab/Node-Express-Sails.git" target="_blank">
-    <img src="https://gitpod.io/button/open-in-gitpod.svg" width="240" alt="Gitpod">
-  </a>
-</p>
